@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="nullcoin" Database="./nullcoin.tags">
+  <Project Name="nullcoin" Path="nullcoin.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Linux_GUI_Debug" Selected="yes">
+      <Project Name="nullcoin" ConfigName="Linux_GUI_Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Linux_CMD_Debug" Selected="no">
+      <Project Name="nullcoin" ConfigName="Linux_CMD_Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Linux_CMD_Release" Selected="no">
+      <Project Name="nullcoin" ConfigName="Linux_CMD_Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

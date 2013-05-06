@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="nullcoin" InternalType="GUI">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00050001N0005Debug0000000000000001N0015Linux_CMD_Debug0000000000000001N0017Linux_CMD_Release0000000000000001N0015Linux_GUI_Debug0000000000000001N0017Linux_GUI_Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../../src/addrman.cpp" Flags="0"/>
+    <File Name="../../src/addrman.h"/>
+    <File Name="../../src/allocators.h"/>
+    <File Name="../../src/base58.h"/>
+    <File Name="../../src/bignum.h"/>
+    <File Name="../../src/bitcoinrpc.cpp" Flags="0"/>
+    <File Name="../../src/bitcoinrpc.h"/>
+    <File Name="../../src/checkpoints.cpp" Flags="0"/>
+    <File Name="../../src/checkpoints.h"/>
+    <File Name="../../src/compat.h"/>
+    <File Name="../../src/crypter.cpp" Flags="0"/>
+    <File Name="../../src/crypter.h"/>
+    <File Name="../../src/db.cpp" Flags="0"/>
+    <File Name="../../src/db.h"/>
+    <File Name="../../src/init.cpp" Flags="0"/>
+    <File Name="../../src/init.h"/>
+    <File Name="../../src/irc.cpp" Flags="0"/>
+    <File Name="../../src/irc.h"/>
+    <File Name="../../src/key.cpp" Flags="0"/>
+    <File Name="../../src/key.h"/>
+    <File Name="../../src/keystore.cpp" Flags="0"/>
+    <File Name="../../src/keystore.h"/>
+    <File Name="../../src/main.cpp" Flags="0"/>
+    <File Name="../../src/main.h"/>
+    <File Name="../../src/mruset.h"/>
+    <File Name="../../src/net.cpp" Flags="0"/>
+    <File Name="../../src/net.h"/>
+    <File Name="../../src/netbase.cpp" Flags="0"/>
+    <File Name="../../src/netbase.h"/>
+    <File Name="../../src/noui.cpp" Flags="0"/>
+    <File Name="../../src/protocol.cpp" Flags="0"/>
+    <File Name="../../src/protocol.h"/>
+    <File Name="../../src/rpcdump.cpp" Flags="0"/>
+    <File Name="../../src/rpcnet.cpp" Flags="0"/>
+    <File Name="../../src/script.cpp" Flags="0"/>
+    <File Name="../../src/script.h"/>
+    <File Name="../../src/scrypt.h"/>
+    <File Name="../../src/serialize.h"/>
+    <File Name="../../src/strlcpy.h"/>
+    <File Name="../../src/sync.cpp" Flags="0"/>
+    <File Name="../../src/sync.h"/>
+    <File Name="../../src/ui_interface.h"/>
+    <File Name="../../src/uint256.h"/>
+    <File Name="../../src/util.cpp" Flags="0"/>
+    <File Name="../../src/util.h"/>
+    <File Name="../../src/version.cpp" Flags="0"/>
+    <File Name="../../src/version.h"/>
+    <File Name="../../src/wallet.cpp" Flags="0"/>
+    <File Name="../../src/wallet.h"/>
+    <File Name="../../src/walletdb.cpp" Flags="0"/>
+    <File Name="../../src/walletdb.h"/>
+    <VirtualDirectory Name="qt">
+      <File Name="../../src/qt/aboutdialog.cpp" Flags="0"/>
+      <File Name="../../src/qt/aboutdialog.h"/>
+      <File Name="../../src/qt/addressbookpage.cpp"/>
+      <File Name="../../src/qt/addressbookpage.h"/>
+      <File Name="../../src/qt/addresstablemodel.cpp"/>
+      <File Name="../../src/qt/addresstablemodel.h"/>
+      <File Name="../../src/qt/askpassphrasedialog.cpp"/>
+      <File Name="../../src/qt/askpassphrasedialog.h"/>
+      <File Name="../../src/qt/bitcoin.cpp"/>
+      <File Name="../../src/qt/bitcoinaddressvalidator.cpp"/>
+      <File Name="../../src/qt/bitcoinaddressvalidator.h"/>
+      <File Name="../../src/qt/bitcoinamountfield.cpp"/>
+      <File Name="../../src/qt/bitcoinamountfield.h"/>
+      <File Name="../../src/qt/bitcoingui.cpp"/>
+      <File Name="../../src/qt/bitcoingui.h"/>
+      <File Name="../../src/qt/bitcoinstrings.cpp"/>
+      <File Name="../../src/qt/bitcoinunits.cpp"/>
+      <File Name="../../src/qt/bitcoinunits.h"/>
+      <File Name="../../src/qt/clientmodel.cpp"/>
+      <File Name="../../src/qt/clientmodel.h"/>
+      <File Name="../../src/qt/csvmodelwriter.cpp"/>
+      <File Name="../../src/qt/csvmodelwriter.h"/>
+      <File Name="../../src/qt/editaddressdialog.cpp"/>
+      <File Name="../../src/qt/editaddressdialog.h"/>
+      <File Name="../../src/qt/guiconstants.h"/>
+      <File Name="../../src/qt/guiutil.cpp"/>
+      <File Name="../../src/qt/guiutil.h"/>
+      <File Name="../../src/qt/macdockiconhandler.h"/>
+      <File Name="../../src/qt/messagepage.cpp"/>
+      <File Name="../../src/qt/messagepage.h"/>
+      <File Name="../../src/qt/miningpage.cpp"/>
+      <File Name="../../src/qt/miningpage.h"/>
+      <File Name="../../src/qt/monitoreddatamapper.cpp"/>
+      <File Name="../../src/qt/monitoreddatamapper.h"/>
+      <File Name="../../src/qt/notificator.cpp"/>
+      <File Name="../../src/qt/notificator.h"/>
+      <File Name="../../src/qt/optionsdialog.cpp"/>
+      <File Name="../../src/qt/optionsdialog.h"/>
+      <File Name="../../src/qt/optionsmodel.cpp"/>
+      <File Name="../../src/qt/optionsmodel.h"/>
+      <File Name="../../src/qt/overviewpage.cpp"/>
+      <File Name="../../src/qt/overviewpage.h"/>
+      <File Name="../../src/qt/qtipcserver.cpp"/>
+      <File Name="../../src/qt/qtipcserver.h"/>
+      <File Name="../../src/qt/qvalidatedlineedit.cpp"/>
+      <File Name="../../src/qt/qvalidatedlineedit.h"/>
+      <File Name="../../src/qt/qvaluecombobox.cpp" Flags="0"/>
+      <File Name="../../src/qt/qvaluecombobox.h" Flags="0"/>
+      <File Name="../../src/qt/rpcconsole.cpp" Flags="0"/>
+      <File Name="../../src/qt/rpcconsole.h" Flags="0"/>
+      <File Name="../../src/qt/sendcoinsdialog.cpp" Flags="0"/>
+      <File Name="../../src/qt/sendcoinsdialog.h" Flags="0"/>
+      <File Name="../../src/qt/sendcoinsentry.cpp" Flags="0"/>
+      <File Name="../../src/qt/sendcoinsentry.h" Flags="0"/>
+      <File Name="../../src/qt/transactiondesc.cpp" Flags="0"/>
+      <File Name="../../src/qt/transactiondesc.h" Flags="0"/>
+      <File Name="../../src/qt/transactiondescdialog.cpp" Flags="0"/>
+      <File Name="../../src/qt/transactiondescdialog.h" Flags="0"/>
+      <File Name="../../src/qt/transactionfilterproxy.cpp" Flags="0"/>
+      <File Name="../../src/qt/transactionfilterproxy.h" Flags="0"/>
+      <File Name="../../src/qt/transactionrecord.cpp" Flags="0"/>
+      <File Name="../../src/qt/transactionrecord.h" Flags="0"/>
+      <File Name="../../src/qt/transactiontablemodel.cpp" Flags="0"/>
+      <File Name="../../src/qt/transactiontablemodel.h" Flags="0"/>
+      <File Name="../../src/qt/transactionview.cpp" Flags="0"/>
+      <File Name="../../src/qt/transactionview.h" Flags="0"/>
+      <File Name="../../src/qt/verifymessagedialog.cpp" Flags="0"/>
+      <File Name="../../src/qt/verifymessagedialog.h" Flags="0"/>
+      <File Name="../../src/qt/walletmodel.cpp" Flags="0"/>
+      <File Name="../../src/qt/walletmodel.h" Flags="0"/>
+      <VirtualDirectory Name="test"/>
+    </VirtualDirectory>
+    <File Name="../../src/scrypt.cpp" Flags="0"/>
+    <VirtualDirectory Name="test"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="gen">
+    <File Name="../gen/moc_aboutdialog.cpp"/>
+    <File Name="../gen/moc_addressbookpage.cpp"/>
+    <File Name="../gen/moc_addresstablemodel.cpp"/>
+    <File Name="../gen/moc_askpassphrasedialog.cpp"/>
+    <File Name="../gen/moc_bitcoinaddressvalidator.cpp"/>
+    <File Name="../gen/moc_bitcoinamountfield.cpp"/>
+    <File Name="../gen/moc_bitcoingui.cpp"/>
+    <File Name="../gen/moc_clientmodel.cpp"/>
+    <File Name="../gen/moc_csvmodelwriter.cpp"/>
+    <File Name="../gen/moc_editaddressdialog.cpp"/>
+    <File Name="../gen/moc_guiutil.cpp"/>
+    <File Name="../gen/moc_messagepage.cpp"/>
+    <File Name="../gen/moc_miningpage.cpp"/>
+    <File Name="../gen/moc_monitoreddatamapper.cpp"/>
+    <File Name="../gen/moc_notificator.cpp"/>
+    <File Name="../gen/moc_optionsdialog.cpp"/>
+    <File Name="../gen/moc_optionsmodel.cpp"/>
+    <File Name="../gen/moc_overviewpage.cpp"/>
+    <File Name="../gen/moc_qvalidatedlineedit.cpp"/>
+    <File Name="../gen/moc_qvaluecombobox.cpp"/>
+    <File Name="../gen/moc_rpcconsole.cpp"/>
+    <File Name="../gen/moc_sendcoinsdialog.cpp"/>
+    <File Name="../gen/moc_sendcoinsentry.cpp"/>
+    <File Name="../gen/moc_transactiondesc.cpp"/>
+    <File Name="../gen/moc_transactiondescdialog.cpp"/>
+    <File Name="../gen/moc_transactionfilterproxy.cpp"/>
+    <File Name="../gen/moc_transactiontablemodel.cpp"/>
+    <File Name="../gen/moc_transactionview.cpp"/>
+    <File Name="../gen/moc_verifymessagedialog.cpp"/>
+    <File Name="../gen/moc_walletmodel.cpp"/>
+    <File Name="../gen/qrc_bitcoin.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Linux_CMD_Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-W" C_Options="-g;-W" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../gen"/>
+        <IncludePath Value="../../src"/>
+        <Preprocessor Value="_REENTRANT"/>
+        <Preprocessor Value="BOOST_THREAD_USE_LIB"/>
+        <Preprocessor Value="BOOST_SPIRIT_THREADSAFE"/>
+        <Preprocessor Value="USE_IPV6"/>
+        <Preprocessor Value="USE_UPNP=1"/>
+        <Preprocessor Value="STATICLIB"/>
+        <Preprocessor Value="HAVE_BUILD_INFO"/>
+        <Preprocessor Value="LINUX"/>
+        <Preprocessor Value="USE_RPC"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="miniupnpc"/>
+        <Library Value="rt"/>
+        <Library Value="ssl"/>
+        <Library Value="crypto"/>
+        <Library Value="db_cxx"/>
+        <Library Value="boost_system"/>
+        <Library Value="boost_filesystem"/>
+        <Library Value="boost_program_options"/>
+        <Library Value="boost_thread"/>
+        <Library Value="boost_unit_test_framework"/>
+        <Library Value="pthread"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./$(ConfigurationName)" Command="./$(ProjectName)" CommandArguments="-printtoconsole" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild>
+        <Command Enabled="no">#/bin/sh ../../share/genbuild.sh ../gen/build.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/sendcoinsdialog.ui -o ../gen/ui_sendcoinsdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/addressbookpage.ui -o ../gen/ui_addressbookpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/messagepage.ui -o ../gen/ui_messagepage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/aboutdialog.ui -o ../gen/ui_aboutdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/editaddressdialog.ui -o ../gen/ui_editaddressdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/transactiondescdialog.ui -o ../gen/ui_transactiondescdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/overviewpage.ui -o ../gen/ui_overviewpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/sendcoinsentry.ui -o ../gen/ui_sendcoinsentry.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/askpassphrasedialog.ui -o ../gen/ui_askpassphrasedialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/rpcconsole.ui -o ../gen/ui_rpcconsole.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/verifymessagedialog.ui -o ../gen/ui_verifymessagedialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/miningpage.ui -o ../gen/ui_miningpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/optionsdialog.ui -o ../gen/ui_optionsdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/qrcodedialog.ui -o ../gen/ui_qrcodedialog.h</Command>
+      </PreBuild>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Linux_CMD_Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O1;-W" C_Options="-O1;-W" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../gen"/>
+        <IncludePath Value="../../src"/>
+        <Preprocessor Value="LINUX"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./$(ConfigurationName)" Command="./$(ProjectName)" CommandArguments="-printtoconsole" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild>
+        <Command Enabled="no">#/bin/sh ../../share/genbuild.sh ../gen/build.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/sendcoinsdialog.ui -o ../gen/ui_sendcoinsdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/addressbookpage.ui -o ../gen/ui_addressbookpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/messagepage.ui -o ../gen/ui_messagepage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/aboutdialog.ui -o ../gen/ui_aboutdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/editaddressdialog.ui -o ../gen/ui_editaddressdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/transactiondescdialog.ui -o ../gen/ui_transactiondescdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/overviewpage.ui -o ../gen/ui_overviewpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/sendcoinsentry.ui -o ../gen/ui_sendcoinsentry.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/askpassphrasedialog.ui -o ../gen/ui_askpassphrasedialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/rpcconsole.ui -o ../gen/ui_rpcconsole.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/verifymessagedialog.ui -o ../gen/ui_verifymessagedialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/miningpage.ui -o ../gen/ui_miningpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/optionsdialog.ui -o ../gen/ui_optionsdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/qrcodedialog.ui -o ../gen/ui_qrcodedialog.h</Command>
+      </PreBuild>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Linux_GUI_Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O3;-fexpensive-optimizations;-W;-msse3" C_Options="-g;-W;-msse3" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../gen"/>
+        <IncludePath Value="../../src"/>
+        <IncludePath Value="../../src/qt"/>
+        <IncludePath Value="/usr/include/qt4"/>
+        <IncludePath Value="/usr/include/qt4/QtCore"/>
+        <IncludePath Value="/usr/include/qt4/QtGui"/>
+        <Preprocessor Value="_REENTRANT"/>
+        <Preprocessor Value="QT_GUI"/>
+        <Preprocessor Value="BOOST_THREAD_USE_LIB"/>
+        <Preprocessor Value="BOOST_SPIRIT_THREADSAFE"/>
+        <Preprocessor Value="USE_IPV6"/>
+        <Preprocessor Value="USE_UPNP=1"/>
+        <Preprocessor Value="STATICLIB"/>
+        <Preprocessor Value="HAVE_BUILD_INFO"/>
+        <Preprocessor Value="LINUX"/>
+        <Preprocessor Value="USE_RPC"/>
+        <Preprocessor Value="QT_NO_DEBUG"/>
+        <Preprocessor Value="QT_GUI_LIB"/>
+        <Preprocessor Value="QT_CORE_LIB"/>
+        <Preprocessor Value="QT_SHARED"/>
+      </Compiler>
+      <Linker Options="-msse3" Required="yes">
+        <LibraryPath Value="/usr/lib/qt4"/>
+        <Library Value="miniupnpc"/>
+        <Library Value="rt"/>
+        <Library Value="ssl"/>
+        <Library Value="crypto"/>
+        <Library Value="db_cxx"/>
+        <Library Value="boost_system"/>
+        <Library Value="boost_filesystem"/>
+        <Library Value="boost_program_options"/>
+        <Library Value="boost_thread"/>
+        <Library Value="QtGui"/>
+        <Library Value="QtCore"/>
+        <Library Value="pthread"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)_qt" IntermediateDirectory="./$(ConfigurationName)" Command="./$(ProjectName)_qt" CommandArguments="-printtoconsole -rescan" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild>
+        <Command Enabled="no">#/bin/sh ../../share/genbuild.sh ../gen/build.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/sendcoinsdialog.ui -o ../gen/ui_sendcoinsdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/addressbookpage.ui -o ../gen/ui_addressbookpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/messagepage.ui -o ../gen/ui_messagepage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/aboutdialog.ui -o ../gen/ui_aboutdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/editaddressdialog.ui -o ../gen/ui_editaddressdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/transactiondescdialog.ui -o ../gen/ui_transactiondescdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/overviewpage.ui -o ../gen/ui_overviewpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/sendcoinsentry.ui -o ../gen/ui_sendcoinsentry.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/askpassphrasedialog.ui -o ../gen/ui_askpassphrasedialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/rpcconsole.ui -o ../gen/ui_rpcconsole.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/verifymessagedialog.ui -o ../gen/ui_verifymessagedialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/miningpage.ui -o ../gen/ui_miningpage.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/optionsdialog.ui -o ../gen/ui_optionsdialog.h</Command>
+        <Command Enabled="no">#/usr/lib/x86_64-linux-gnu/qt4/bin/uic ../../src/qt/forms/qrcodedialog.ui -o ../gen/ui_qrcodedialog.h</Command>
+      </PreBuild>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
